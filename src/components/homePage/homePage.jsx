@@ -1,25 +1,11 @@
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./homePage.css";
+import { useState } from "react";
 
-export default function homePage() {
+export default function HomePage() {
+  const [page, setPage] = useState(1);
+
   return (
     <>
-      <div className="Bedrok__Blok">
-        <h1>BEDROK</h1>
-        <div className="Bedrok__content">
-          <div className="Bedrok__page">
-            <p>Home</p>
-            <p>About</p>
-            <p>Contact</p>
-          </div>
-          <div className="search-container">
-            <FontAwesomeIcon icon={faSearch} className="search-icon" />
-            <input type="text" placeholder="Search" className="search-input" />
-          </div>
-          <button>Subscribe</button>
-        </div>
-      </div>
+      <h1>Hello</h1>
     </>
   );
 }
