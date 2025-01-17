@@ -37,6 +37,7 @@ export default function NavBar({ page, setPage }) {
           <button>Subscribe</button>
         </div>
       </div>
+      <div className="New"></div>
     </>
   );
 }

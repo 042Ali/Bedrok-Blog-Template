@@ -56,3 +56,13 @@ button {
   border: none;
   border-radius: 6px;
 }
+
+.New::after {
+  content: "";
+  display: block;
+  width: 1700px;
+  height: 1px;
+  margin-top: 40px;
+  border-radius: 2px;
+  background-color: #e3e4e8;
+}
