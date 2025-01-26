@@ -1,0 +1,151 @@
+.Featured__Post {
+  border: 2px solid #c7c9d1;
+  height: 350px;
+  width: 1280px;
+  margin-left: 140px;
+  margin-top: 30px;
+  border-radius: 12px;
+
+  img {
+    margin-left: 360px;
+    height: 349px;
+    width: 660px;
+  }
+
+  p {
+    margin-top: -315px;
+    margin-left: 32px;
+    background-color: #e8ffee;
+    width: 150px;
+    height: 20px;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-left: -110px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 44px;
+  }
+
+  h6 {
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 32px;
+  }
+}
+
+.Featured__Post--h1 {
+  color: #73778c;
+  margin-top: 64px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.See__All {
+  margin-top: -38px;
+  margin-left: 1300px;
+  font-size: 24px;
+  cursor: pointer;
+
+  h1 {
+    font-weight: 500;
+  }
+}
+
+.Recent__Posts {
+  border: 2px solid #c7c9d1;
+  height: 400px;
+  width: 310px;
+  margin-left: 140px;
+  margin-top: 30px;
+  border-radius: 12px;
+
+  img {
+    width: 310px;
+    height: 220px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: #e8ffee;
+    color: #3f4047;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: -120px;
+    margin-top: 10px;
+  }
+}
+
+.Recent__Posts--Page {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 25px;
+}
+
+.Recent__Posts--h1 {
+  color: #73778c;
+  margin-top: 115px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.message-input-btn {
+  display: flex;
+  gap: 50px;
+  justify-items: center;
+}
+
+.message-input-btn input {
+  width: 300px;
+  height: 18px;
+}
+
+.message-input-btn button {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.message {
+  display: grid;
+  justify-items: center;
+  background-color: black;
+  color: white;
+  width: 1700px;
+  height: 450px;
+  align-items: center;
+  padding: 100px;
+  margin-left: -100px;
+  margin-top: 150px;
+}
+
+.message-h1 h1 {
+  width: 650px;
+  text-align: center;
+  margin-left: -130px;
+  font-weight: 400;
+}
+
+.message-p {
+  color: #8f93a3;
+}
+
+.message-input-btn button h2 {
+  font-weight: 400;
+  color: gray;
+}
