@@ -8,4 +8,13 @@
 
 body {
   font-family: "Montserrat", serif;
+  overflow-x: hidden;
+}
+
+.active {
+  color: aqua;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
