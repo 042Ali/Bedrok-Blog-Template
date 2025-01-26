@@ -1,9 +1,7 @@
-import { useState } from "react";
-
 export default function AllPostsPage() {
   return (
     <>
-      <h1>salma</h1>
+      <h1>Hello</h1>
     </>
   );
 }
