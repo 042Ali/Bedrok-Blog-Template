@@ -1,0 +1,134 @@
+.About__page-div {
+    background-image: url("https://s3-alpha-sig.figma.com/img/cf6a/7097/c1c74128552587f50fa8044e8ef8c729?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bXyWnHszbbQBh5CH20rsfAWN6gVrY~qD9AScRTycyHeJKIOiISeHPOxPynTED~qd772QYoUMon8MsXra7o1J4PndFa9S-hXMSBTE~SxawQplFI9qlhNIXOLquxI5yvjSRAGKHEXbzZrum94Dsb3eQhLfZMexIafGsdYYGJHQGE-6g62ah4jtIiX8dBYg1kSh9xeMVnswD4e6nKViCGH3xOrXAXoJ1W7o4w3ZUD2twOiTDbll174W1lpi~pXAqEJnh6OTJHs8ByUI1ZZLxhAoyc2IPxnVlmj0GcAsWTOVSwiGL8ciS1pivxCL9qsQgGrMlJIXMFd-8lAnlVfqmpi5mw__");
+    color: white;
+    height: 500px;
+    width: 80%;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    .about-text {
+        margin-top: 300px;
+        margin-left: -60px;
+        font-weight: 500;
+    }
+
+    .about-h1 {
+        font-size: 90px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-left: -70px;
+    }
+}
+
+.About__page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.New-1::after {
+    content: "";
+    display: block;
+    width: 1700px;
+    height: 1px;
+    margin-top: 100px;
+    border-radius: 2px;
+    background-color: #e3e4e8;
+}
+
+/* ////////////////////////// */
+
+.div-content {
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    padding: 80px;
+
+}
+
+.div-content-p {
+    width: 700px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.div-content-h1 {
+    margin-top: -30px;
+}
+
+.div-content-h1 h1 {
+    font-weight: 400;
+}
+
+/* ////////////////////////// */
+
+.message-input-btn {
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+}
+
+.message-input-btn input {
+    width: 300px;
+    height: 18px;
+}
+
+.message-input-btn button {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.message {
+    display: grid;
+    justify-items: center;
+    background-color: black;
+    color: white;
+    width: 1700px;
+    height: 450px;
+    align-items: center;
+    padding: 100px;
+}
+
+.message-h1 h1 {
+    width: 650px;
+    text-align: center;
+    margin-left: -130px;
+    font-weight: 400
+}
+
+.message-p {
+    color: #8f93a3;
+}
+
+.message-input-btn button h2 {
+    font-weight: 400;
+    color: gray;
+}
+
+/* ///////////////////////////// */
+
+.footer {
+    display: flex;
+    padding: 135px;
+    padding-left: 240px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.all-footer {
+    display: flex;
+    padding: 135px;
+    padding-left: 855px;
+}
