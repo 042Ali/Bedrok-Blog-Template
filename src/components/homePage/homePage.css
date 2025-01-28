@@ -149,3 +149,61 @@
   font-weight: 400;
   color: gray;
 }
+
+.footer {
+  height: 100px;
+
+  h1 {
+    padding: 125px 140px;
+  }
+
+  p {
+    padding: 50px 140px;
+    color: #abaeba;
+  }
+}
+
+.footer-container {
+  justify-content: center;
+  padding-inline: 750px;
+  margin-top: -260px;
+}
+
+.footer-title {
+  color: #abaeba;
+  font-weight: 400;
+}
+
+.footer-item {
+  margin-top: 25px;
+}
+
+.footer-section {
+  justify-content: center;
+  padding-inline: 1000px;
+  margin-top: -196px;
+}
+
+.section-title {
+  color: #abaeba;
+  font-weight: 400;
+}
+
+.section-item {
+  margin-top: 25px;
+}
+
+.contact-section {
+  justify-content: center;
+  padding-inline: 1200px;
+  margin-top: -152px;
+}
+
+.contact-title {
+  color: #abaeba;
+  font-weight: 400;
+}
+
+.contact-item {
+  margin-top: 25px;
+}
