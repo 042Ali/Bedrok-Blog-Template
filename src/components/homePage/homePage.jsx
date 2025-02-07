@@ -8,7 +8,10 @@ export default function HomePage() {
       <div className="Home__Page">
         <h1 className="Featured__Post--h1">Featured Post</h1>
         <div className="Featured__Post">
-          <img src="./Frame--387.png" alt="" />
+          <img
+            src="https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg  "
+            alt=""
+          />
           <p>Entrepreneurship </p>
           <h1>Designers </h1>
           <h1>who changed </h1>
@@ -21,7 +24,10 @@ export default function HomePage() {
         </div>
         <div className="Recent__Posts--Page">
           <div className="Recent__Posts">
-            <img src="./Frame--387.png" alt="" />
+            <img
+              src="https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg  "
+              alt=""
+            />
             <p>NEUTRAL</p>
             <h1>
               7 Things about <br /> web design your <br /> boss wants you to
@@ -29,7 +35,10 @@ export default function HomePage() {
             </h1>
           </div>
           <div className="Recent__Posts">
-            <img src="./Frame--387.png" alt="" />
+            <img
+              src="https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg  "
+              alt=""
+            />
             <p>NEUTRAL</p>
             <h1>
               7 Things about <br /> web design your <br /> boss wants you to
@@ -37,7 +46,10 @@ export default function HomePage() {
             </h1>
           </div>
           <div className="Recent__Posts">
-            <img src="./Frame--387.png" alt="" />
+            <img
+              src="https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg  "
+              alt=""
+            />
             <p>NEUTRAL</p>
             <h1>
               7 Things about <br /> web design your <br /> boss wants you to

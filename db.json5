@@ -1,0 +1,40 @@
+{
+  products: [
+    {
+      id: 1,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+    {
+      id: 2,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+    {
+      id: 3,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+    {
+      id: 4,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+    {
+      id: 5,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+    {
+      id: 6,
+      image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+      nickname: "NEUTRAL",
+      name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    },
+  ],
+}
