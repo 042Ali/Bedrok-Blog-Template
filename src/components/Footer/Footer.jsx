@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,7 +11,10 @@ export default function Footer() {
         <div class="footer-container">
           <h4 class="footer-title">CATEGORIES</h4>
           <ul class="footer-list">
-            <li class="footer-item">Entrepreneurship</li>
+            <li class="footer-item">
+              {" "}
+              <NavLink to={"/Entrepreneurship"}>Entrepreneurship</NavLink>
+            </li>
             <li class="footer-item">Creator</li>
             <li class="footer-item">Tech</li>
             <li class="footer-item">All</li>
