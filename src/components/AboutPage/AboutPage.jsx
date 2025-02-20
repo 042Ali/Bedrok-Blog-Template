@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import "./AboutPage.css";
 import TextField from "@mui/material/TextField";
 
@@ -51,36 +52,8 @@ export default function AboutPage() {
             <p>Zero spam, just the good stuff.</p>
           </div>
         </div>
-        <footer className="about">
-          <h1>BEDROK</h1>
-          <p>Copyright 2022</p>
-
-          <div class="about-container">
-            <h4 class="about-title">CATEGORIES</h4>
-            <ul class="about-list">
-              <li class="about-item">Entrepreneurship</li>
-              <li class="about-item">Creator</li>
-              <li class="about-item">Tech</li>
-              <li class="about-item">All</li>
-            </ul>
-          </div>
-          <div class="about-section">
-            <h4 class="section-title">PAGES</h4>
-            <ul class="section-list">
-              <li class="section-item">Home</li>
-              <li class="section-item">About</li>
-              <li class="section-item">Subscribe</li>
-            </ul>
-          </div>
-          <div class="contact-section">
-            <h4 class="contact-title">CONTACT</h4>
-            <ul class="contact-list">
-              <li class="contact-item">Twitter</li>
-              <li class="contact-item">LinkedIn</li>
-              <li class="contact-item">Email me</li>
-            </ul>
-          </div>
-        </footer>
+        <div className=".hr"></div>
+        <Footer />
       </div>
     </>
   );

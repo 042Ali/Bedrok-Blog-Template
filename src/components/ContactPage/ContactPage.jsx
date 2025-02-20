@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import "./ContactPage.css";
 
 export default function ContactPage() {
@@ -37,6 +38,8 @@ export default function ContactPage() {
             <h2>Submit message</h2>
           </button>
         </div>
+        <div className="hr"></div>
+        <Footer />
       </div>
     </>
   );

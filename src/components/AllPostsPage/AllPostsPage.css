@@ -40,10 +40,8 @@
 
 .Card--name {
   font-weight: 400;
-  /* padding-left: -100px; */
   padding: 10px;
   margin-top: -30px;
-  font-style: italic;
 }
 
 .All__Blog__Posts--Page {
@@ -58,4 +56,30 @@
   margin-top: 115px;
   font-size: 40px;
   font-weight: 500;
+}
+
+.Next--Back__Button {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 600px;
+  margin-left: -40px;
+  padding: 72px;
+  cursor: pointer;
+}
+
+.Back__Button {
+  border: 1px solid;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Next__Button {
+  border: 1px solid;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
 }

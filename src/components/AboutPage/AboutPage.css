@@ -1,5 +1,5 @@
 .About__page-div {
-  background-image: url("https://s3-alpha-sig.figma.com/img/cf6a/7097/c1c74128552587f50fa8044e8ef8c729?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bXyWnHszbbQBh5CH20rsfAWN6gVrY~qD9AScRTycyHeJKIOiISeHPOxPynTED~qd772QYoUMon8MsXra7o1J4PndFa9S-hXMSBTE~SxawQplFI9qlhNIXOLquxI5yvjSRAGKHEXbzZrum94Dsb3eQhLfZMexIafGsdYYGJHQGE-6g62ah4jtIiX8dBYg1kSh9xeMVnswD4e6nKViCGH3xOrXAXoJ1W7o4w3ZUD2twOiTDbll174W1lpi~pXAqEJnh6OTJHs8ByUI1ZZLxhAoyc2IPxnVlmj0GcAsWTOVSwiGL8ciS1pivxCL9qsQgGrMlJIXMFd-8lAnlVfqmpi5mw__");
+  background-image: url("/public/Rectangle\ 5.png");
   color: white;
   height: 500px;
   width: 80%;
@@ -11,6 +11,8 @@
   .about-text {
     margin-top: 300px;
     margin-left: -60px;
+    font-size: 24px;
+    color: #c7c9d1;
     font-weight: 500;
   }
 
@@ -34,7 +36,7 @@
   content: "";
   display: block;
   width: 1700px;
-  height: 1px;
+  height: 3px;
   margin-top: 100px;
   border-radius: 2px;
   background-color: #e3e4e8;
@@ -109,65 +111,4 @@
 .message-input-btn button h2 {
   font-weight: 400;
   color: gray;
-}
-
-/* ///////////////////////////// */
-
-.about {
-  height: 100px;
-  padding-left: 1000px;
-
-  h1 {
-    padding: 125px 140px;
-  }
-
-  p {
-    padding: 50px 140px;
-    color: #abaeba;
-  }
-}
-
-.about-container {
-  justify-content: center;
-  padding-inline: 750px;
-  margin-top: -260px;
-}
-
-.about-title {
-  color: #abaeba;
-  font-weight: 400;
-}
-
-.about-item {
-  margin-top: 25px;
-}
-
-.about-section {
-  justify-content: center;
-  padding-inline: 1000px;
-  margin-top: -196px;
-}
-
-.section-title {
-  color: #abaeba;
-  font-weight: 400;
-}
-
-.section-item {
-  margin-top: 25px;
-}
-
-.contact-section {
-  justify-content: center;
-  padding-inline: 1200px;
-  margin-top: -152px;
-}
-
-.contact-title {
-  color: #abaeba;
-  font-weight: 400;
-}
-
-.contact-item {
-  margin-top: 25px;
 }

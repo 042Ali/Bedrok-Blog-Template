@@ -1,5 +1,5 @@
 .Contact__page-div {
-  background-image: url("https://s3-alpha-sig.figma.com/img/cf6a/7097/c1c74128552587f50fa8044e8ef8c729?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bXyWnHszbbQBh5CH20rsfAWN6gVrY~qD9AScRTycyHeJKIOiISeHPOxPynTED~qd772QYoUMon8MsXra7o1J4PndFa9S-hXMSBTE~SxawQplFI9qlhNIXOLquxI5yvjSRAGKHEXbzZrum94Dsb3eQhLfZMexIafGsdYYGJHQGE-6g62ah4jtIiX8dBYg1kSh9xeMVnswD4e6nKViCGH3xOrXAXoJ1W7o4w3ZUD2twOiTDbll174W1lpi~pXAqEJnh6OTJHs8ByUI1ZZLxhAoyc2IPxnVlmj0GcAsWTOVSwiGL8ciS1pivxCL9qsQgGrMlJIXMFd-8lAnlVfqmpi5mw__");
+  background-image: url("/public/Rectangle\ 5.png");
   color: white;
   height: 500px;
   width: 80%;
@@ -15,7 +15,7 @@
   }
 
   .contact-h1 {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 400;
     margin-top: 10px;
     margin-left: -70px;
@@ -81,4 +81,14 @@
     height: 50px;
     width: 300px;
   }
+}
+
+.hr::after {
+  content: "";
+  display: block;
+  width: 1700px;
+  height: 1px;
+  margin-top: 40px;
+  border-radius: 2px;
+  background-color: #e3e4e8;
 }

@@ -1,0 +1,42 @@
+.Error-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 500px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.Error-content {
+  width: 1200px;
+}
+
+.Error-title {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-left: -320px;
+}
+
+.Error-text {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.Error-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  margin-left: -200px;
+  border: 1px solid white;
+}
+
+.Error-button:hover {
+  background-color: gray;
+}

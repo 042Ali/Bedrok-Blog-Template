@@ -36,5 +36,41 @@
       nickname: "NEUTRAL",
       name: ["7 Things about", "web design your", "boss wants you to", "know"],
     },
+    // {
+    //   id: 7,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
+    // {
+    //   id: 8,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
+    // {
+    //   id: 9,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
+    // {
+    //   id: 10,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
+    // {
+    //   id: 11,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
+    // {
+    //   id: 12,
+    //   image: "https://w0.peakpx.com/wallpaper/302/833/HD-wallpaper-blue-purple-waves-shapes-gradient-abstract.jpg",
+    //   nickname: "NEUTRAL",
+    //   name: ["7 Things about", "web design your", "boss wants you to", "know"],
+    // },
   ],
 }

@@ -32,6 +32,14 @@ export default function AllPostsPage() {
             </div>
           ))}
         </div>
+        <div className="Next--Back__Button">
+          <div className="Back__Button">
+            <h6>Back</h6>
+          </div>
+          <div className="Next__Button">
+            <h6>Next</h6>
+          </div>
+        </div>
       </div>
     </>
   );
