@@ -44,7 +44,7 @@ export default function AllPostsPage() {
           {currentItems.map((product) => (
             <div className="card--border" key={product.id}>
               <img className="Card--Image" src={product.image} alt="" />
-              <p className="Card--nickname">{product.nickname}</p>
+              <p className="Card--tag">{product.tag}</p>
               <h1 style={{ fontSize: "30px" }} className="Card--name">
                 {product.name}
               </h1>

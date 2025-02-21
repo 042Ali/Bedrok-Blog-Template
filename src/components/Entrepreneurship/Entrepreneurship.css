@@ -1,0 +1,21 @@
+.Entrepreneurship__Page {
+  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: -0px;
+    padding: 1px 1px;
+    color: black;
+  }
+}
+
+.CATEGORY {
+  color: #8f93a3;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 60px 140px;
+
+  p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}

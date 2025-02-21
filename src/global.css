@@ -8,6 +8,7 @@
 
 body {
   font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
   overflow-x: hidden;
 }
 
