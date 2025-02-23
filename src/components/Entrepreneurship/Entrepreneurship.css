@@ -19,3 +19,104 @@
     margin-top: 10px;
   }
 }
+
+.entrepreneurship--card {
+  padding: 5px 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.entrepreneurship--border {
+  border: 2px solid #c7c9d1;
+  height: 450px;
+  width: 310px;
+  border-radius: 12px;
+}
+
+.entrepreneurship--image {
+  width: 310px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.entrepreneurship--tag {
+  margin-top: 10px;
+  margin-left: 12px;
+  background-color: #e8ffee;
+  color: #3f4047;
+  width: 170px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+}
+
+h4.entrepreneurship--name {
+  font-weight: 400;
+  padding: 10px;
+  margin-top: -10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.entrepreneurship--blog--page {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 25px;
+}
+
+.entrepreneurship--blog--title {
+  color: #73778c;
+  margin-top: 115px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.entrepreneurship--next-back__button {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 600px;
+  padding: 72px;
+}
+
+.entrepreneurship--back__button {
+  background-color: white;
+  color: #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.entrepreneurship--next__button {
+  background-color: white;
+  color: #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.entrepreneurship--back__button,
+.entrepreneurship--next__button {
+  cursor: pointer;
+}
+
+.entrepreneurship--page__indicator {
+  font-weight: 400;
+}
+
+.entrepreneurship--separator::after {
+  content: "";
+  display: block;
+  width: 1700px;
+  height: 1px;
+  margin-top: 40px;
+  border-radius: 2px;
+  background-color: #d0d1d3;
+}
