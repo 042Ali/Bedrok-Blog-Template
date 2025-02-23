@@ -45,9 +45,11 @@ export default function AllPostsPage() {
             <div className="card--border" key={product.id}>
               <img className="Card--Image" src={product.image} alt="" />
               <p className="Card--tag">{product.tag}</p>
-              <h1 style={{ fontSize: "30px" }} className="Card--name">
-                {product.name}
-              </h1>
+              <h4 className="Card--name">
+                {product.name && typeof product.name === "string"
+                  ? product.name.replace(/([a-z])([A-Z])/g, "$1 $2")
+                  : product.name}
+              </h4>
             </div>
           ))}
         </div>

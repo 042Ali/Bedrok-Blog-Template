@@ -38,10 +38,13 @@
   padding: 5px;
 }
 
-.Card--name {
+h4.Card--name {
   font-weight: 400;
   padding: 10px;
-  margin-top: -30px;
+  margin-top: -10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  /* word-spacing: 10px;  */
 }
 
 .All__Blog__Posts--Page {
