@@ -60,7 +60,7 @@ export default function HomePage() {
         </div>
         <div className="message">
           <div className="message-h1">
-            <h1>A monthly post delivered straight to your inbox</h1>
+            <h1>A monthly post delivered br straight to your inbox</h1>
           </div>
           <div className="message-input-btn">
             <TextField
