@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./AllPostsPage.css";
 import Footer from "../Footer/Footer";
+import { NavLink } from "react-router-dom";
 
 export default function AllPostsPage() {
   const [products, setProducts] = useState([]);
@@ -11,7 +12,7 @@ export default function AllPostsPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/products")
+      .get("http://localhost:5001/products")
       .then((response) => {
         setProducts(response.data);
       })
@@ -45,11 +46,13 @@ export default function AllPostsPage() {
             <div className="card--border" key={product.id}>
               <img className="Card--Image" src={product.image} alt="" />
               <p className="Card--tag">{product.tag}</p>
-              <h4 className="Card--name">
-                {product.name && typeof product.name === "string"
-                  ? product.name.replace(/([a-z])([A-Z])/g, "$1 $2")
-                  : product.name}
-              </h4>
+              <NavLink to={"/BlogInfoPage"}>
+                <h4 className="Card--name">
+                  {product.name && typeof product.name === "string"
+                    ? product.name.replace(/([a-z])([A-Z])/g, "$1 $2")
+                    : product.name}
+                </h4>
+              </NavLink>
             </div>
           ))}
         </div>

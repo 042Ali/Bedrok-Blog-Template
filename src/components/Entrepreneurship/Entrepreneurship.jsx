@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Entrepreneurship.css";
 import axios from "axios";
 import Footer from "../Footer/Footer";
+import { NavLink } from "react-router-dom";
 
 export default function Entrepreneurship() {
   const [entrepreneurships, setEntrepreneurships] = useState([]);
@@ -11,7 +12,7 @@ export default function Entrepreneurship() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/Entrepreneurship")
+      .get("http://localhost:5001/Entrepreneurship")
       .then((response) => {
         setEntrepreneurships(response.data);
       })
@@ -55,6 +56,7 @@ export default function Entrepreneurship() {
             cursus, mi quis viverra ornare, eros dolor interdum. <br />
           </p>
         </div>
+
         <div className="entrepreneurship--card">
           {currentItems.map((entrepreneurship) => (
             <div className="entrepreneurship--border" key={entrepreneurship.id}>
@@ -64,12 +66,14 @@ export default function Entrepreneurship() {
                 alt=""
               />
               <p className="entrepreneurship--tag">{entrepreneurship.tag}</p>
-              <h4 className="entrepreneurship--name">
-                {entrepreneurship.name &&
-                typeof entrepreneurship.name === "string"
-                  ? entrepreneurship.name.replace(/([a-z])([A-Z])/g, "$1 $2")
-                  : entrepreneurship.name}
-              </h4>
+              <NavLink to={"/BlogInfoPage"}>
+                <h4 className="entrepreneurship--name">
+                  {entrepreneurship.name &&
+                  typeof entrepreneurship.name === "string"
+                    ? entrepreneurship.name.replace(/([a-z])([A-Z])/g, "$1 $2")
+                    : entrepreneurship.name}
+                </h4>
+              </NavLink>
             </div>
           ))}
         </div>
